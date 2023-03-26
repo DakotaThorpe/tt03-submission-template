@@ -33,7 +33,7 @@ documentation:
 
 # A description of what the inputs do
   inputs:               
-    - SRCLK
+    - clock
     - SRDAT
     - Write Enable
     - Read Enable
