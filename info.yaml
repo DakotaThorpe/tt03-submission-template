@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    360274988873228289        # If using wokwi, set this to your project's ID
+  wokwi_id:    360280693941685249        # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -33,21 +33,24 @@ documentation:
 
 # A description of what the inputs do
   inputs:               
+    - SRCLK
+    - SRDAT
     - Write Enable
-    - Data0
-    - Data1
-    - Data2
-    - Data3
-    - Data4
-    - Data5
-    - Data6
-    - Data7
-    - Address 0
-    - Address 1
-    - RST
+    - Read Enable
+    - None
+    - None
+    - None
+    - None
 # A description of what the outputs do
   outputs:
-    - Test, nothing yet
+    - D0
+    - D1
+    - D2
+    - D3
+    - D4
+    - D5
+    - D6
+    - D7
 
 # The following fields are optional
   tag:          "ram"      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
